@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #787878;
 		text-decoration: none;
 	}
 
@@ -2210,6 +2210,10 @@ input, select, textarea {
 
 /* Labeled Icons */
 
+        ul.icons .icon {
+            vertical-align: middle;
+        }
+                        
 	ul.labeled-icons {
 		list-style: none;
 		padding: 0;
@@ -2279,7 +2283,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3em 0 0 0;
+				padding: 0.3em 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
