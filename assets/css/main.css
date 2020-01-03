@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #787878;
+		color: #c3c3c3;
 		text-decoration: none;
 	}
 
@@ -1765,7 +1765,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #c3c3c3;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2595,7 +2595,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: rgb(31, 24, 21);;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
@@ -2604,11 +2604,12 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 7em 3em;
 		position: fixed;
 		text-align: right;
 		top: 0;
 		width: 35%;
+                opaci
 	}
 
 		#header > * {
@@ -2625,6 +2626,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+                        padding: 1em;
 		}
 
 		#header strong, #header b {
@@ -2663,6 +2665,7 @@ input, select, textarea {
 		list-style: none;
 		margin: 1em 0 0 0;
 		padding: 0;
+                
 	}
 
 		#footer .copyright li {
