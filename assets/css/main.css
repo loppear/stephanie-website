@@ -1808,6 +1808,11 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
+        .image label {
+            font-size: 0.7em;
+            text-align: right;
+        }
+
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
