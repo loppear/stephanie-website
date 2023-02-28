@@ -85,7 +85,7 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../../images/bg.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -2282,7 +2282,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2384,7 +2384,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 0 0 0.3em;
 			vertical-align: middle;
 		}
 
@@ -2850,13 +2850,13 @@ input, select, textarea {
 			}
 
 			#header .container .button {
-				min-width: 12em;
+				min-width: 6em;
 			}
 
 /* Footer */
 
 	#footer {
-		min-height: 100vh;
+		min-height: 50vh;
 		padding: 0 0 12em 0;
 		position: relative;
 		text-align: center;
