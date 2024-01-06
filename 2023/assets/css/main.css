@@ -2395,6 +2395,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 100%;
 			margin-left: 0;
+                        margin-bottom: 0.3em;
 		}
 
 			ul.actions.special li:first-child {
@@ -2841,7 +2842,7 @@ input, select, textarea {
 			bottom: 0;
 			left: 50%;
 			margin-left: -17.5em;
-			padding: 2.5em;
+			padding: 1em;
 			position: absolute;
 		}
 
@@ -2954,7 +2955,7 @@ input, select, textarea {
 
 			#header .container {
 				margin-left: -40%;
-				padding: 3em;
+				padding: 1em;
 			}
 
 		/* Footer */
