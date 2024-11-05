@@ -2386,6 +2386,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 0.3em;
 			vertical-align: middle;
+                        width: 100%;
 		}
 
 		ul.actions.special {
@@ -2852,6 +2853,7 @@ input, select, textarea {
 
 			#header .container .button {
 				min-width: 6em;
+                                width:100%;
 			}
 
 /* Footer */
